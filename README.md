@@ -1,13 +1,17 @@
 Hướng Dẫn Chạy Chương Trình
+
 Sử dụng: <tên_chương_trình> [TÙY CHỌN]
 
 Tùy chọn:
+
   -h, --help                          Hiển thị hướng dẫn sử dụng
   -d, --drive <ổ đĩa>                 [BẮT BUỘC] Chỉ định ổ đĩa (ví dụ: F:)
   -r, --recover                       [TÙY CHỌN] Khôi phục tập tin đã xóa
   -a, --analyze                       [TÙY CHỌN] Phân tích tập tin bị lỗi hoặc hỏng (tốn thời gian)
   -l, --no-log                        [TÙY CHỌN] Tắt ghi nhật ký danh sách tập tin bị xóa
+  
 🔹 Cách hoạt động
+
 Khi sử dụng --recover hoặc --analyze, nếu tìm thấy tập tin đã xóa, chương trình sẽ yêu cầu bạn chọn tập tin muốn khôi phục.
 
 Nếu chỉ dùng --drive, chương trình chỉ tìm tập tin bị xóa mà không thực hiện khôi phục.
@@ -46,7 +50,9 @@ Cách 2: Biên dịch chương trình từ mã nguồn
 Tải mã nguồn từ GitHub:
 
 git clone https://github.com/Chicken0712/Project-OS
+
 cd KhoiLoveAlice
+
 Mở dự án bằng Visual Studio:
 
 Mở file .sln trong thư mục gốc của dự án.

@@ -5,9 +5,13 @@ Sử dụng: <tên_chương_trình> [TÙY CHỌN]
 Tùy chọn:
 
   -h, --help                          Hiển thị hướng dẫn sử dụng
+  
   -d, --drive <ổ đĩa>                 [BẮT BUỘC] Chỉ định ổ đĩa (ví dụ: F:)
+  
   -r, --recover                       [TÙY CHỌN] Khôi phục tập tin đã xóa
+  
   -a, --analyze                       [TÙY CHỌN] Phân tích tập tin bị lỗi hoặc hỏng (tốn thời gian)
+  
   -l, --no-log                        [TÙY CHỌN] Tắt ghi nhật ký danh sách tập tin bị xóa
   
 🔹 Cách hoạt động
@@ -21,15 +25,19 @@ Nếu chỉ dùng --drive, chương trình chỉ tìm tập tin bị xóa mà kh
 🔹 Khôi phục tập tin:
 
 Tool --drive F: --recover
+
 ➡ Chương trình sẽ hiển thị danh sách các tập tin đã xóa và yêu cầu bạn chọn tập tin để khôi phục.
 
 🔹 Khôi phục và phân tích tập tin đã xóa:
 
 Tool --drive F: --recover --analyze
+
 ➡ Chương trình sẽ kiểm tra tập tin bị lỗi trước khi khôi phục (chỉ hỗ trợ FAT32, chưa áp dụng cho NTFS).
 
 🚀 Cách chạy chương trình
+
 Cách 1: Sử dụng file thực thi có sẵn
+
 Tải file .exe từ thư mục bin của repository.
 
 Mở Command Prompt (CMD):
@@ -74,6 +82,7 @@ Chọn Build > Build Solution từ menu của Visual Studio hoặc nhấn Ctrl +
 Nếu biên dịch thành công, file thực thi sẽ nằm trong thư mục:
 
 <Project_Directory>\x64\Release\Tool.exe
+
 (hoặc x86\Release\Toolx86.exe nếu build ở chế độ x86).
 
 Sau đó, mở Command Prompt (CMD) và chạy chương trình như hướng dẫn ở trên.

@@ -36,7 +36,7 @@ Tool --drive F: --recover --analyze
 
 🚀 Cách chạy chương trình
 
-Cách 1: Sử dụng file thực thi có sẵn
+💡 Cách 1: Sử dụng file thực thi có sẵn
 
 Tải file .exe từ thư mục bin của repository.
 
@@ -54,7 +54,7 @@ Chạy chương trình với các tùy chọn phù hợp:
 <ten_file_thuc_thi>.exe [TÙY CHỌN]
 (Thay <ten_file_thuc_thi> bằng tên file .exe, ví dụ: Tool.exe hoặc Toolx86.exe).
 
-Cách 2: Biên dịch chương trình từ mã nguồn
+💡 Cách 2: Biên dịch chương trình từ mã nguồn
 Tải mã nguồn từ GitHub:
 
 git clone https://github.com/Chicken0712/Project-OS

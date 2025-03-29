@@ -13,6 +13,7 @@ Khi sử dụng --recover hoặc --analyze, nếu tìm thấy tập tin đã xó
 Nếu chỉ dùng --drive, chương trình chỉ tìm tập tin bị xóa mà không thực hiện khôi phục.
 
 💡 Ví dụ sử dụng
+
 🔹 Khôi phục tập tin:
 
 Tool --drive F: --recover
